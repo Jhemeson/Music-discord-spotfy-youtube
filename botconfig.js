@@ -4,9 +4,9 @@ module.exports = {
   DefaultPrefix: process.env.Prefix || ">", //Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
   SupportServer: "https://discord.gg/sbySMS7m3v", //Support Server Link
-  Token: process.env.Token || "OTcwMTQwNTcxMDk4Mjg4MjI4.Ym3n0A.ZdDlho7_7YN7CMcZYHPUTnXIoaM", //Discord Bot Token
+  Token: process.env.Token || "OTcwMTQwNTcxMDk4Mjg4MjI4.Gzktvj.1Y8TVnFnjF196hRdzhKn5UaIBhPomM6B95kapo", //Discord Bot Token
   ClientID: process.env.Discord_ClientID || "970140571098288228", //Discord Client ID
-  ClientSecret: process.env.Discord_ClientSecret || "_6Ji4OI7Lm4x4RcXhyREdAXQXLUuGJaA", //Discord Client Secret
+  ClientSecret: process.env.Discord_ClientSecret || "tEp9oGG3rouhuzBZFfxgVnjw_Rh4BFw2", //Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], //Discord OAuth2 Scopes
   ServerDeafen: true, //If you want bot to stay deafened
   DefaultVolume: 100, //Sets the default volume of the bot, You can change this number anywhere from 1 to 100
@@ -30,7 +30,7 @@ module.exports = {
   // The default one should work fine, altho if you have issue with it, you can create your own or use another public lavalink.
   Lavalink: {
     id: "Main", //- Used for indentifier. You can set this to whatever you want.
-    host: "lavabosta.herokuapp.com", //- The host name or IP of the lavalink server.
+    host: "lavalink-replit-1.jhemeson.repl.co", //- The host name or IP of the lavalink server.
     port: 443, // The port that lavalink is listening to. This must be a number!
     pass: "shirimbabo", //- The password of the lavalink server.
     secure: true, // Set this to true if the lavalink uses SSL. if not set it to false.
